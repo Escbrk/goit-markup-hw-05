@@ -769,20 +769,35 @@ span {
 }
 
 .subscribe-input {
-  background-color: var(--color-navy-blue);
+  background-color: transparent;
+  color: var(--color-white);
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
-  padding: 8px 16px;
-  border: 1px solid var(--white, #fff);
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border: 1px solid var(--color-white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
   padding: 8px 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
   background-color: var(--color-iris);
   color: var(--color-white);
-  width: 165px;
+  min-width: 165px;
+  font-size: 16px;
+  font-weight: 500;
   height: 40px;
   border-radius: 4px;
   background: var(--color-iris);
@@ -795,17 +810,21 @@ span {
   background-color: var(--color-ocean);
 }
 
-.btn-wrap {
-  position: relative;
-}
 .btn-icon {
-  position: absolute;
+  margin-left: 16px;
+  /* position: absolute; */
   fill: var(--color-white);
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%);
+  /* right: 24px; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
 }
-.subscribe-wrap {
+
+/* .subscribe-wrap {
+  display: flex;
+  gap: 24px;
+} */
+
+.modal-form {
   display: flex;
   gap: 24px;
 }
