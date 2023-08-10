@@ -843,3 +843,6 @@ span {
   display: block;
   margin-bottom: 4px;
 }
+.textarea {
+  margin-bottom: 16px;
+}
