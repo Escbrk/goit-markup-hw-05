@@ -839,10 +839,13 @@ span {
   color: var(--color-white);
 }
 
-.label-text {
+.label {
   display: block;
   margin-bottom: 4px;
 }
 .textarea {
+  margin-bottom: 16px;
+}
+.modal-field:nth-child(:last-child) {
   margin-bottom: 16px;
 }
