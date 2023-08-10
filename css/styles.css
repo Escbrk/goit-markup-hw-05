@@ -697,10 +697,6 @@ span {
 .modal-field {
   margin-bottom: 8px;
 }
-.modal-field label {
-  display: inline-block;
-  margin-bottom: 4px;
-}
 
 .agree-text,
 .modal-field label {
@@ -708,6 +704,7 @@ span {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: block;
 }
 
 .modal-title {
@@ -717,6 +714,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   border-style: none;
+  margin-bottom: 16px;
 }
 
 .modal-comment:focus,
@@ -812,17 +810,8 @@ span {
 
 .btn-icon {
   margin-left: 16px;
-  /* position: absolute; */
   fill: var(--color-white);
-  /* right: 24px; */
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
 }
-
-/* .subscribe-wrap {
-  display: flex;
-  gap: 24px;
-} */
 
 .modal-form {
   display: flex;
