@@ -840,6 +840,6 @@ span {
 }
 
 .label-text {
-  /* display: block; */
+  display: block;
   margin-bottom: 4px;
 }
