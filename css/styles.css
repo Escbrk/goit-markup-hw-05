@@ -760,6 +760,7 @@ span {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 24px;
+  display: block;
 }
 .modal-textarea {
   margin-bottom: 16px;
@@ -851,7 +852,10 @@ span {
 .checkbox-container {
   margin-bottom: 24px;
 }
-.checkbox-input {
+.checkbox-input:checked .privacy-span {
+  background-color: var(--color-ocean);
+  border: none;
+  fill: var(--color-cloud);
 }
 .privacy-policy {
   font-size: 12px;
@@ -870,4 +874,8 @@ span {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.privacy-link {
+  color: var(--color-iris);
+  text-decoration: underline;
 }
