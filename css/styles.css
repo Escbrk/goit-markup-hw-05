@@ -863,6 +863,7 @@ span {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .checkbox-input:checked + .privacy-policy span {
   background-color: var(--color-ocean);
@@ -879,4 +880,5 @@ span {
 .privacy-link {
   color: var(--color-iris);
   text-decoration: underline;
+  display: inline;
 }
