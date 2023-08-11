@@ -852,17 +852,6 @@ span {
 .checkbox-container {
   margin-bottom: 24px;
 }
-.checkbox-input:checked .privacy-span {
-  background-color: var(--color-ocean);
-  border: none;
-  fill: var(--color-cloud);
-}
-.privacy-policy {
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  line-height: 1.17;
-  color: var(--color-light-slate);
-}
 .privacy-span {
   width: 16px;
   height: 16px;
@@ -875,6 +864,18 @@ span {
   justify-content: center;
   fill: transparent;
 }
+.checkbox-input:checked + .privacy-policy span {
+  background-color: var(--color-ocean);
+  border: none;
+  fill: var(--color-cloud);
+}
+.privacy-policy {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+  color: var(--color-light-slate);
+}
+
 .privacy-link {
   color: var(--color-iris);
   text-decoration: underline;
