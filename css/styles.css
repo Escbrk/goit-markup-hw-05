@@ -750,7 +750,8 @@ span {
 
 .modal-form-btn {
   align-items: center;
-  width: 169px;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   color: var(--color-white);
   background-color: var(--color-iris);
@@ -761,6 +762,9 @@ span {
   transform: translateX(-50%);
   margin-top: 24px;
   display: block;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 .modal-textarea {
   margin-bottom: 16px;
